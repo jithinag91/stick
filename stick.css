@@ -159,17 +159,21 @@ left:20px;
 #rhand24{
   width:150px;
    left:27%;
-/*    border:1px solid magenta; */
-  transform-origin: right center;
-   }
+   height:20px;
+    /*border:1px solid magenta; */
+  transform-origin: left center;
+}
+   
 
 #rhand34{
    width:150px;
   left:40%;
-/*    border:1px solid grey; */
-  transform-origin: right center;
-  
+  height:20px;
+    /*border:1px solid grey; */
+  transform-origin: left center;
 }
+  
+
 
 
 
