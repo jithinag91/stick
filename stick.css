@@ -61,14 +61,14 @@ body
 {
 	height: 170px;
 	background-color: black;
-    top: 115px;
+    top: 116px;
 	margin: auto;
 	left: 0;
 	right: 0;
 }
 .spine,.hand
 {
-    width: 15px;
+    width: 16px;
 }
 .hip,.head,.foot,.shoulder
 {
@@ -77,16 +77,17 @@ body
 .hip
 {
 	background-color: black;
-	height: 15px;
+	height: 16px;
     top: 275px;
 	margin: auto;
 	left: 0;
 	right: 0;
+	border-radius: 8px;
 }
 .shoulder
 {
 	background-color: black;
-	height: 15px;
+	height: 16px;
 	width: 65px;
     top: 125px;
 	margin: auto;
@@ -102,10 +103,10 @@ body
     right: 0;
     top: 125px;
 }
-.hand1,.hand2
+.hand1,.hand2,.hand3,.hand4
 {
 	background-color: blue;
-	height: 15px;
+	height: 16px;
 	width: 50px;
     top: 275px;
 	margin: auto;
@@ -118,30 +119,53 @@ body
 	background-color: orange;
 	width: 80px;
 }
+.hand3
+{
+	background-color: blue;
+	width: 30px;
+}
+.hand4
+{
+	background-color: orange;
+	width: 20px;
+}
 .left-hand
 {
-	right: 25px;
+	right: 18px;
 	left: auto;
-	border-top-right-radius: 8px;
-	border-bottom-right-radius: 8px;
-	transform: rotatez(45deg);
+	border-radius: 8px;
+	
     transform-origin: right center;
 }
 .right-hand
 {
-	left: 25px;
-	border-top-left-radius: 8px;
-	border-bottom-left-radius: 8px;
-	transform: rotatez(45deg);
+	left: 20px;
+	border-radius: 8px;
     transform-origin: left center;
 }
 .hand2.left-hand
 {
-	right:75px;
+	right:56px;
 }
 .hand2.right-hand
 {
-	left: 75px;
+	left: 60px;
+}
+.hand3.left-hand
+{
+	right:124px;
+}
+.hand3.right-hand
+{
+	left: 128px;
+}
+.hand4.left-hand
+{
+	right:142px;
+}
+.hand4.right-hand
+{
+	left: 148px;
 }
 .legs
 {
@@ -154,21 +178,22 @@ body
 .thigh
 {
 	background-color: green;
-	width: 15px;
+	width: 16px;
     height: 80px;
     margin: auto;
-    top: 17px;
+    top: 18px;
     left: 15px;
     right: 0;
-	
+	border-radius: 8px;
 }
 .leg
 {
 	background-color: brown;
-	width: 15px;
+	width: 16px;
     height: 80px;
-    top: 92px;
+    top: 90px;
     margin: auto;
+	border-radius: 8px;
 	
 }
 .left-leg
@@ -179,7 +204,7 @@ body
 }
 .right-leg
 {
-    left: 15px;
+    left: 14px;
     right: 0;
 	transform-origin: top center;
 }
@@ -195,9 +220,10 @@ body
 {
 	background-color: black;
 	width: 20px;
-    height: 15px;
-    top: 92px;
+    height: 16px;
+    top: 89px;
     margin: auto;
+	border-radius: 8px;
 }
 .foot2
 {
@@ -205,7 +231,7 @@ body
 }
 .foot1.left-foot
 {
-	left: -40px;
+	left: -42px;
 	right: auto;
 }
 .foot1.right-foot
@@ -215,18 +241,100 @@ body
 }
 .foot2.left-foot
 {
-	left: -60px;
+	left: -54px;
 	right: auto;
 }
 .foot2.right-foot
 {
-	left: 42px;
+	left: 34px;
     right: 0;
+}
+#hand1
+{
+	animation: hand1 16s linear forwards;
 }
 
 
+@keyframes hand1
+{
+	0%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	6.25%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	12.5%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	18.75%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	25%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	31.25%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	37.5%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	43.75%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	50%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	56.25%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	62.5%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	68.75%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	75%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	81.25%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	87.5%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	93.75%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	100%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+}
 
-
-
-
-
+@keyframes test
+{
+	0%
+	{
+		background-color: green;	
+	}
+	100%
+	{
+		background-color: red;
+	}
+}
