@@ -1,0 +1,170 @@
+
+
+/* ANIMATION */
+#lhand14,#lhand24
+{
+  animation: lhand 4s linear forwards infinite;
+
+}
+#rhand14,#rhand24
+{
+  animation: rhand 4s linear forwards infinite;
+
+}
+
+
+@keyframes lhand
+{
+	0%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	6.25%
+	{
+		transform: rotate(-40deg) translatex(0) translatey(0);
+	}
+	12.5%
+	{		
+transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	18.75%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	25%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	31.25%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	37.5%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	43.75%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	50%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	56.25%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	62.5%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	68.75%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	75%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	81.25%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	87.5%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	93.75%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	100%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+}
+
+@keyframes rhand
+{
+	0%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	6.25%
+	{
+		transform: rotate(40deg) translatex(0) translatey(0);
+	}
+	12.5%
+	{		
+transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	18.75%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	25%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	31.25%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	37.5%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	43.75%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	50%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	56.25%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	62.5%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	68.75%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	75%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	81.25%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	87.5%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	93.75%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+	100%
+	{
+		transform: rotate(0deg) translatex(0) translatey(0);
+	}
+}
+
+@keyframes test
+{
+	0%
+	{
+		background-color: green;	
+	}
+	100%
+	{
+		background-color: red;
+	}
+}

@@ -1,172 +1,44 @@
-html,body,ul,li,div,span
-{
-	padding: 0;
-	margin:0;
+
+
+
+/*GAPE ADJUSTION jithin ag edit*/
+.hand1.left-hand{
+  right:0px;
+ 
 }
-*
-{
-	box-sizing: border-box;
-	position: relative;
+
+.hand1.right-hand{
+  left:0px;
+ 
 }
-body
-{
-	background-color: #505050;
-}
-.table
-{
-	display: table;
-}
-.table-cell
-{
-	display: table-cell;
-	vertical-align: middle;
-	margin: auto;
-}
-.margin
-{
-	margin: auto;
-}
-.full
-{
-	height: 100%;
-	width: 100%;
-}
-.animation-holder
-{
-	background-color: #f4f4f4;
-	height: 600px;
-	width: 400px;
-	margin: auto;
-}
-.body
-{
-	height: 100%;
-	width: 100%;
-}
-.body *
-{
-	position: absolute;
-}
-.head
-{
-	height: 60px;
-	border-radius: 50%;
-	background-color: black;
-	top: 60px;
-	margin: auto;
-	left: 0;
-	right: 0;
-}
-.spine
-{
-	height: 170px;
-	background-color: black;
-    top: 116px;
-	margin: auto;
-	left: 0;
-	right: 0;
-}
-.spine,.hand
-{
-    width: 16px;
-}
-.hip,.head,.foot,.shoulder
-{
-	width: 60px;
-}
-.hip
-{
-	background-color: black;
-	height: 16px;
-    top: 275px;
-	margin: auto;
-	left: 0;
-	right: 0;
-	border-radius: 8px;
-}
-.shoulder
-{
-	background-color: black;
-	height: 16px;
-	width: 65px;
-    top: 125px;
-	margin: auto;
-	left: 0;
-	right: 0;
-	border-radius: 8px;
-}
-.hands
-{
-	width: 0px;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 125px;
-}
-.hand1,.hand2,.hand3,.hand4
-{
-	background-color: blue;
-	height: 16px;
-	width: 50px;
-    top: 275px;
-	margin: auto;
-	left: 0;
-	right: 0;
-	top: 0;
-}
-.hand2
-{
-	background-color: orange;
-	width: 80px;
-}
-.hand3
-{
-	background-color: blue;
-	width: 30px;
-}
-.hand4
-{
-	background-color: orange;
-	width: 20px;
-}
-.left-hand
-{
-	right: 18px;
-	left: auto;
-	border-radius: 8px;
-	
-    transform-origin: right center;
-}
-.right-hand
-{
-	left: 20px;
-	border-radius: 8px;
-    transform-origin: left center;
-}
+
 .hand2.left-hand
 {
-	right:56px;
+	right:0px;
 }
 .hand2.right-hand
 {
-	left: 60px;
+	left:0px;
 }
+
 .hand3.left-hand
 {
-	right:124px;
+	right:0px;
 }
+
 .hand3.right-hand
 {
-	left: 128px;
+	left: 0px;
 }
 .hand4.left-hand
 {
-	right:142px;
+	right:13%;
 }
 .hand4.right-hand
 {
-	left: 148px;
+	left: 13%;
 }
+
 .legs
 {
 	width: 0px;
@@ -249,92 +121,56 @@ body
 	left: 34px;
     right: 0;
 }
-#hand1
-{
-	animation: hand1 16s linear forwards;
+/* container divs setup */
+
+#lhand14{
+right:20px;
+ width:150px;
+  height:20px;
+ /*border:1px solid green;*/
+  transform-origin: right center;
+}
+
+#lhand24{
+  width:150px;
+  right:27%;
+   height:20px;
+     /*border:1px solid magenta;*/
+  transform-origin: right center;
+   }
+
+#lhand34{
+   width:150px;
+  right:40%;
+   height:20px;
+    /*border:1px solid grey; */
+  transform-origin: right center;
+  
+}
+
+#rhand14{
+left:20px;
+ width:150px;
+  height:20px;
+ /*border:1px solid green;*/
+  transform-origin: left center;
+}
+
+#rhand24{
+  width:150px;
+   left:27%;
+/*    border:1px solid magenta; */
+  transform-origin: right center;
+   }
+
+#rhand34{
+   width:150px;
+  left:40%;
+/*    border:1px solid grey; */
+  transform-origin: right center;
+  
 }
 
 
-@keyframes hand1
-{
-	0%
-	{
-		transform: rotate(0deg) translatex(0) translatey(0);
-	}
-	6.25%
-	{
-		transform: rotate(0deg) translatex(0) translatey(0);
-	}
-	12.5%
-	{
-		transform: rotate(0deg) translatex(0) translatey(0);
-	}
-	18.75%
-	{
-		transform: rotate(0deg) translatex(0) translatey(0);
-	}
-	25%
-	{
-		transform: rotate(0deg) translatex(0) translatey(0);
-	}
-	31.25%
-	{
-		transform: rotate(0deg) translatex(0) translatey(0);
-	}
-	37.5%
-	{
-		transform: rotate(0deg) translatex(0) translatey(0);
-	}
-	43.75%
-	{
-		transform: rotate(0deg) translatex(0) translatey(0);
-	}
-	50%
-	{
-		transform: rotate(0deg) translatex(0) translatey(0);
-	}
-	56.25%
-	{
-		transform: rotate(0deg) translatex(0) translatey(0);
-	}
-	62.5%
-	{
-		transform: rotate(0deg) translatex(0) translatey(0);
-	}
-	68.75%
-	{
-		transform: rotate(0deg) translatex(0) translatey(0);
-	}
-	75%
-	{
-		transform: rotate(0deg) translatex(0) translatey(0);
-	}
-	81.25%
-	{
-		transform: rotate(0deg) translatex(0) translatey(0);
-	}
-	87.5%
-	{
-		transform: rotate(0deg) translatex(0) translatey(0);
-	}
-	93.75%
-	{
-		transform: rotate(0deg) translatex(0) translatey(0);
-	}
-	100%
-	{
-		transform: rotate(0deg) translatex(0) translatey(0);
-	}
-}
 
-@keyframes test
-{
-	0%
-	{
-		background-color: green;	
-	}
-	100%
-	{
-		background-color: red;
-	}
-}
+
